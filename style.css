@@ -1,0 +1,139 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    background-image: linear-gradient(to bottom right, #80b7e7, #1359a4);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+#navbar{
+height: 50px;
+background-color: #122864;
+
+}
+nav ul{
+   display: flex;
+   height:20px;
+   width: 100%;
+   justify-content: center;
+   
+}
+nav ul li{
+   
+   list-style: none;
+   padding: 12px 12px;
+}
+nav ul li a{
+   text-decoration: none;
+   color: #fff;
+   margin: 12px 109px;
+}
+nav ul li a:hover{
+   color:#010005;
+   background-color: #fff;
+}
+.box{
+    background: linear-gradient(rgb(255 255 255 / 13%),rgb(242 241 241 / 38%)),url('ind2.png')no-repeat center center/cover;
+    width: 110%;
+    height: 90vh;
+    
+    
+ }
+ 
+ .virat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+ 
+ .virat img {
+    width: 45vw;
+    height: 711px;
+    transform: translateX(-200%);
+    animation: slideIn 1s linear forwards;
+    animation-delay: .4s;
+    
+ }
+ 
+ .content {
+    gap: 20px;
+    padding: 20px 50px;
+   animation: slideIn 1s linear;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+ }
+ 
+ .content h2 {
+    color: #010005;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+    transform: translateX(-100%);
+    animation: slideIn 1s linear forwards;
+    animation-delay: .4s;
+    margin-top: 1.2rem;
+
+ }
+ 
+ .content h1 {
+    color: #061232;
+    font-size: 50px;
+    transform: translateX(200%);
+    animation: slideIn 1s linear forwards;
+    animation-delay: .4s;
+    
+   
+ }
+ button a{
+   text-decoration: none;
+   color: #fff;
+   padding: 15px 30px;
+height: 12px;
+width: 50px;
+   font-size: 20px;
+}
+.content p {
+   color: rgb(0, 0, 0);
+   font-size: 18px;
+   line-height: 30px;
+   font-weight: 800;
+   margin-top: 1.2rem;
+   transform: translateX(200%);
+   animation: slideIn 1s linear forwards;
+   animation-delay: .4s;
+
+   
+}
+@keyframes slideIn {
+   to {
+     transform: translateX(0%);
+   }
+ }
+
+.content button {
+    text-decoration: none;
+    padding: 13px 5px;
+    font-size: 18px;
+    color: white;
+    border-radius: 12px;
+    background-color: #040507;
+    margin-top: 2rem;
+    cursor: pointer;
+    transform: translateX(-200%);
+    animation: slideIn 1s linear forwards;
+    animation-delay: .5s;
+   }
+   
+   .content button:hover
+ {
+    background-color: #122864;
+    color: #fffffffa;
+ }
+ 

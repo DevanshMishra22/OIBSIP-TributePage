@@ -1,0 +1,182 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar{
+    height: 50px;
+    background-color: #122864;
+    
+    }
+
+
+nav ul{
+    display: flex;
+    height:20px;
+    width: 100%;
+    justify-content: center;
+    
+    
+ }
+ nav ul li{
+    
+    list-style: none;
+    padding: 16px 19px;
+ }
+ nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    margin: 12px 109px;
+        text-align: center;
+ }
+ nav ul li a:hover{
+    color:#010005;
+    background-color: #fff;
+ }
+ .box{
+    display: flex;
+    background-color: #000000;
+
+ }
+ .box h1{
+    margin: 0px 544px;
+    margin-top: 12px;
+    margin-bottom: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    color: #fff;
+    transform: translateX(300%);
+    animation: slideIn 1s linear forwards;
+    animation-delay: .4s;
+ 
+ }
+ .information {
+    background: url('aboutbg1.jpeg')no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+ }
+ .info{
+    color: #fff;
+    background-color: #262c39;
+    width: 760px;
+    height: 1007px;
+    margin: 0px 62px;
+    border-radius: 50px;
+    box-shadow: 5px 10px 20px 0px #5d5e66;
+    transform: translateX(200%);
+    animation: slideIn 1s linear forwards;
+    animation-delay: 1s;
+ 
+ }
+.personal li {
+   padding: 1px 1px;
+   margin: 9px 72px;
+   list-style: disc;
+   font-size: 1.2rem;
+   font-family: monospace;
+
+}
+.box-heading{
+   font-size: 2.2rem;
+   color: #92a6dc;
+   padding: 13px 205px;
+ text-decoration: underline;
+ display: flex;
+ transform: translateX(200%);
+ animation: slideIn 1s linear forwards;
+ animation-delay: 1.5s;
+
+}
+.info p{
+   font-size: 1rem;
+   padding: 1px 1px;
+   margin: 9px 72px;
+   font-family: monospace;
+   transform: translateX(250%);
+   animation: slideIn 1s linear forwards;
+   animation-delay: 3s;
+
+}
+.profile-photo{
+   display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-right: 12px;
+    transform: translateX(200%);
+    animation: slideIn 1s linear forwards;
+    animation-delay: 2s;
+ 
+}
+.more{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px 50px;
+}
+.profile-photo img{
+   width: 247px;
+   height: 200px;
+  
+}
+.social-icons{
+   background: url('about3.jpeg')no-repeat center center/cover;
+   height: 16rem;
+   transform: translateX(200%);
+   animation: slideIn 1s linear forwards;
+   animation-delay: 3.5s;
+}
+.social-icons ul{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-decoration: none;
+   
+   
+}
+.social-icons ul li{
+   width: 139px;
+   list-style: none;
+   border-radius: 100%;
+   
+   
+}
+.social-icons h1{
+   color: #ffffff;
+   font-size: 2.5rem;
+   font-family: 'Times New Roman', Times, serif;
+   margin:7px 0px 62px 135px;
+   padding-top: 16px;
+}
+.social-icons ul li a{
+   font-size: 30px;
+  
+}
+#insta{
+   color: #5e0e8a;
+   background-color: #fff;
+ 
+}
+#fb{
+   color:#03247e;
+   background-color: #fff;
+ 
+
+}
+#twitter{
+   color: #070925;
+   
+   background-color: #fff;
+
+}
+#web{
+   color: #85cdde;
+}
+@keyframes slideIn {
+   to {
+     transform: translateX(0%);
+   }
+ }
